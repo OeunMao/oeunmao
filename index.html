@@ -3,42 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Porfolio</title>
+    <title>Sopping Cart</title>
     <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
-
 <body>
-    <header class="header">
-        <a href="#" class="logo">PaoPao.</a>
-
-        <nav class="navbar">
-            <a href="#" class="active">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
-        </nav>
-    </header>
-
-    <section class="home">
-        <div class="home-content">
-            <h1>Hi, I am Mao</h1>
-            <h3>Web Developer</h3>
-            <p>Through a job vacancies of company, I would like to apply 
-                as a junior web developer and send my CV as attached file.</p>
-                <div class="btn-box">
-                    <a href="#">Hire Me</a>
-                    <a href="#">Let's Talk</a>
-                </div>
-        </div>
-        <div class="home-sci">
-            <a href="#"><i class='bx bxl-facebook'></i></a>
-            <a href="#"><i class='bx bxl-telegram' ></i></a>
-            <a href="#"><i class='bx bxl-linkedin' ></i></a>
+    <h1>Shopping Cart</h1>
+    <div class="product-container">
+        <div class="product">
+            <img src="images/black_shoes.png" alt="Product Image">
+            <h3>black_shoes</h3>
+            <p>Product Description</p>
+            <span class="price">$10.99</span>
+            <button class="add-to-cart">Add to Cart</button>
         </div>
 
-        <span class="home-imgHover"></span>
-    </section>
+        <div class="product">
+            <img src="images/blue_shoes.png" alt="Product Image">
+            <h3>black_shoes</h3>
+            <p>Product Description</p>
+            <span class="price">$10.99</span>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="images/OutDoor_Shoe1.png" alt="Product Image">
+            <h3>black_shoes</h3>
+            <p>Product Description</p>
+            <span class="price">$10.99</span>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="images/white_shoes.png" alt="Product Image">
+            <h3>black_shoes</h3>
+            <p>Product Description</p>
+            <span class="price">$10.99</span>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="images/yellow_shoes.png" alt="Product Image">
+            <h3>black_shoes</h3>
+            <p>Product Description</p>
+            <span class="price">$10.99</span>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="cart-container">
+        <div>
+            <h2>Cart</h2>
+            <ul class="cart-items"></ul>
+            <div class="cart-total">
+                <span>Total:</span>
+                <span class="total-price">$0.00</span>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="D:\DOM\Practices\Homework4\index.js"></script>
 </body>
 </html>
